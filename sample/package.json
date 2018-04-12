@@ -1,0 +1,11 @@
+{
+    "name": "docker_web_app",
+    "version": "1.0.0",
+    "description": "Node.js on Docker",
+    "author": "Ragna <>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {}
+  }
