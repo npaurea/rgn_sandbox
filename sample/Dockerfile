@@ -10,6 +10,7 @@
 FROM node:carbon
 WORKDIR /var/www
 
+EXPOSE 8081
 
 ADD app.js /var/www/app.js
 CMD ["/usr/bin/node", "/var/www/app.js"]
